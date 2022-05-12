@@ -1,0 +1,106 @@
+/*This CSS file will provide the styles for every page of our rafting website*/
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+    background-color: wheat;
+}
+
+body{
+    background-color: #fcfbfb;
+}
+
+header {
+    background-color:rgba(20,30,13, .7);
+}
+
+nav a:hover {
+    background-color: #a9814c;
+    color: black;
+}
+
+.home-title {
+    color: black;
+}
+
+h4 {
+    color: black;
+}
+
+.book, .join {
+    background-color: #a9814c;
+    color: black;
+    text-decoration: none;
+}
+
+.book:hover, .join:hover {
+    background-color: #597363;
+    color: white; 
+}
+
+.msg {
+    background-color: #936011;
+}
+
+.msg h2 {
+    color: black;
+}
+
+.msg p {
+    color: black;
+}
+
+footer {
+    background-color: #a9814c;
+}
+
+footer h3 {
+    color: black;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: wheat;
+}
+
+.logo {
+    width: 80px;
+}
+
+.icon {
+    width: 80px;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+footer h3 a:hover {
+    text-decoration: underline;
+}

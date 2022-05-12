@@ -1,0 +1,75 @@
+body{
+    text-align: center;
+    display: block;   
+    margin: 0 auto; 
+    width: 40%;  
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+h1:hover {
+    color: black;
+}
+
+img {
+    display: block;
+    max-width: 10%;
+    margin: 0 auto;
+    padding: 10px;   
+}
+
+div.list {
+    text-align: center;
+    font-weight: bold;
+    line-height: 2em;
+}
+
+ol {
+    display: inline-block;
+    text-align: left;
+}
+
+p {
+    width: 50%;
+    margin: 0 auto;   /*can add margin to the top and bottom by adding px size. margin: 50px auto; */
+    text-align: center;
+    font-size: 1.5em;
+
+}
+
+.inwhite {
+    display: inline-block;
+    color: white;
+    width: 37%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;  
+    padding: 10px;
+}
+
+.nameinwhite {
+    color: white;
+    font-size: 15px;
+}
+
+.inwhitequote {
+    display: inline-block;
+    color: white;
+    width: 35%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 20px;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 12px;
+  
+}
