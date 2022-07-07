@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@200&family=Assistant:wght@200&family=Dosis:wght@300&family=Forum&display=swap');
 
 #content {
-    max-width: 1600px;
+    max-width: 90%;
     margin: 0 auto;       
 }
 
@@ -123,7 +123,8 @@ nav a:hover {
 
 main h2 {
     color: #5b2f32;
-    font-size: 2em;
+    font-size: 30px;
+    text-align: center;
 }
 
 footer {
@@ -131,7 +132,8 @@ footer {
     padding: 25px 25px;
     display: flex;
     justify-content: space-around;
-    align-items: center;   
+    align-items: center;    
+    font-family: Forum, Dosis, "Arima Madurai", Assistant;     
 }
 
 footer h3 {
@@ -151,9 +153,51 @@ footer h3 a:hover {
     text-decoration: underline;
 }
 
+.socialmedia img{
+    border-radius: 10px;
+}
 
+/* ---------------- Second Child Page - Apparel ------------------*/
 
+#apparel_top {
+    margin: 100px auto;    
+}
 
+#apparel_text h1 {
+    color: #4d6a2c;
+    font-size: 2.5em;
+}
 
+#apparel_img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 80px auto; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 50px;
+    text-align: center;    
+}
 
+#apparel_img h4 {
+    color:#4d6a2c;
+    font-size: 1.5em;  
+}
+
+.green {
+    grid-column: 1/2;
+    width: 85%;
+    border-radius: 25px;
+}
+
+.sage {
+    grid-column: 2/3;
+    width: 85%;
+    border-radius: 25px;
+}
+
+.red {
+    grid-column: 3/4;
+    width: 85%;   
+    border-radius: 25px;
+}
 
