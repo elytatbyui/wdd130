@@ -224,7 +224,6 @@ footer h3 a:hover {
     grid-template-columns: 1fr 1fr; 
     grid-gap: 60px;
     margin: 70px auto;
-    padding: auto;
     width: 90%;
 }
 
